@@ -3,9 +3,6 @@ const rsa = require('node-rsa');
 const fs = require('fs');
 
 
-//jwtCreator()
-
-
 async function jwtCreator() {
 
 
