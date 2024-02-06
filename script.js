@@ -1,7 +1,7 @@
-import RSAKeyGenerator from "./RSAKeyGenerator.js";
-import { JWTCreator, JWTVerifier } from './JWTToken.js';
-import { passwordHasher, passwordVerifier } from './passwordHash.js';
-import { pvtKey, pubKey } from "./keys.js";
+import RSAKeyGenerator from "./components/RSAKeyGenerator.js";
+import { JWTCreator, JWTVerifier } from './components/JWTToken.js';
+import { passwordHasher, passwordVerifier } from './components/passwordHash.js';
+import { pvtKey, pubKey } from "./components/keys.js";
 
 const hashedPassword = '$2b$12$/X3eUXvFfZZxlZMnl3UvyeIrV2hpjOf6Gi624yRudZzMEY/60KHHm'
 
